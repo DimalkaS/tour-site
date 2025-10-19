@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serene Trails Sri Lanka | Discover Serenity</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Custom styles to define the new brand colors */
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .hero-bg {
+            /* Replace with your own high-quality Sri Lanka image */
+            background-image: url('images/main.jpg');
+        }
+        /* Define Brand Colors based on the Logo (Deep Olive and Gold/Brown) */
+        .brand-primary {
+            color: #555c3c; /* Deep Olive Green for text */
+        }
+        .bg-brand-primary {
+            background-color: #555c3c;
+        }
+        .hover\:bg-brand-dark:hover {
+            background-color: #43492e; /* Darker Olive for hover */
+        }
+        .brand-secondary {
+            color: #92754d; /* Gold/Brown for accents */
+        }
+        /* Custom font style for the logo name */
+        .logo-font {
+            font-family: serif; /* Using a classic serif look for the script font */
+            font-style: italic;
+            font-size: 2.25rem;
+            line-height: 1;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <header class="sticky top-0 z-50 bg-white shadow-lg">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            
+            <a href="index.html" class="flex items-center space-x-3">
+                <img src="images/Serene Trails.png" alt="Serene Trails Logo" class="h-10 w-auto"> 
+                <div>
+                    <span class="logo-font brand-secondary">Serene Trails</span>
+                    <span class="block text-xs uppercase tracking-widest text-gray-500">Sri Lanka</span>
+                </div>
+            </a>
+            
+            <nav class="hidden md:flex space-x-8 items-center text-lg font-semibold">
+                <a href="index.html" class="text-gray-600 hover:brand-primary transition duration-300 border-b-2 border-brand-primary pb-1">Home</a>
+                <a href="tours.html" class="text-gray-600 hover:brand-primary transition duration-300">Packages</a>
+                <a href="contact.html" class="text-gray-600 hover:brand-primary transition duration-300">Contact</a>
+                <a href="contact.html" class="bg-brand-primary hover:bg-brand-dark text-white px-5 py-2 rounded-full shadow-md transition duration-300">Book Now</a>
+            </nav>
+            <button class="md:hidden text-gray-800 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <section id="home" class="hero-bg bg-cover bg-center h-[70vh] flex items-center justify-center relative">
+        <div class="absolute inset-0 bg-black opacity-40"></div>
+        <div class="z-10 text-center p-6 text-white">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-4 tracking-tighter">
+                Discover Serenity
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 font-light max-w-2xl mx-auto">
+                Tailored journeys through Sri Lanka's most beautiful and tranquil landscapes.
+            </p>
+            <a href="tours.html" class="bg-brand-primary hover:bg-brand-dark text-white text-xl font-semibold px-10 py-4 rounded-lg shadow-xl uppercase tracking-wider transition transform hover:scale-105 duration-300">
+                View Our Trails
+            </a>
+        </div>
+    </section>
+
+    <section id="features" class="py-16 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Why Travel With Serene Trails?</h2>
+            <p class="text-gray-600 mb-12 max-w-3xl mx-auto">Experience comfort and authenticity with our dedicated service.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-500 border-t-4 border-brand-primary">
+                    <svg class="w-12 h-12 brand-primary mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Boutique Stays</h3>
+                    <p class="text-gray-500">Curated accommodation, from lush resorts to authentic heritage homes.</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-500 border-t-4 border-brand-primary">
+                    <svg class="w-12 h-12 brand-primary mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Seamless Planning</h3>
+                    <p class="text-gray-500">Expertly managed tours, transportation, and personalized daily itineraries.</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-500 border-t-4 border-brand-primary">
+                    <svg class="w-12 h-12 brand-primary mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Private Guides</h3>
+                    <p class="text-gray-500">Discover hidden trails and insights with your professional, dedicated driver-guide.</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-500 border-t-4 border-brand-primary">
+                    <svg class="w-12 h-12 brand-primary mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.204A9.956 9.956 0 0012 2c-2.403 0-4.664.95-6.364 2.636l-.317.317-.116.116-.116.116A9.956 9.956 0 002 12c0 5.488 4.025 10 9 10 2.21 0 4.29-.89 5.86-2.5 1.57-1.61 2.34-3.79 2.34-6.5a10.02 10.02 0 00-3.618-7.796z"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Safety & Comfort</h3>
+                    <p class="text-gray-500">Your well-being is our priority, ensuring a relaxed and secure journey every step of the way.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tours" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold text-gray-800 mb-12">Our Most Serene Trails</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition transform hover:scale-[1.02] duration-500">
+                    <img class="h-56 w-full object-cover" src="images/costal-image.webp" alt="Coastal Tour">
+                    <div class="p-6 text-left">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">5 Days South Coast Retreat</h3>
+                        <p class="text-gray-500 mb-4">Tranquil beaches and colonial heritage of the South.</p>
+                        <div class="flex justify-between items-center border-t pt-3">
+                            <span class="text-3xl font-extrabold brand-primary">$300</span>
+                            <span class="text-sm text-gray-500">/ per person</span>
+                            <a href="tours.html" class="bg-brand-secondary hover:bg-[#7a6040] text-white px-5 py-2 rounded-full font-semibold transition">View Trail</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition transform hover:scale-[1.02] duration-500">
+                    <img class="h-56 w-full object-cover" src="images/explore.jpeg" alt="Explorer Tour">
+                    <div class="p-6 text-left">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">8 Days Cultural Immersion</h3>
+                        <p class="text-gray-500 mb-4">Ancient cities, spiritual sites, and Kandy's royal charm.</p>
+                        <div class="flex justify-between items-center border-t pt-3">
+                            <span class="text-3xl font-extrabold brand-primary">$460</span>
+                            <span class="text-sm text-gray-500">/ per person</span>
+                            <a href="tours.html" class="bg-brand-secondary hover:bg-[#7a6040] text-white px-5 py-2 rounded-full font-semibold transition">View Trail</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition transform hover:scale-[1.02] duration-500">
+                    <img class="h-56 w-full object-cover" src="images/wonder.jpg" alt="Wonders Tour">
+                    <div class="p-6 text-left">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">12 Days Highland & Safari</h3>
+                        <p class="text-gray-500 mb-4">Tea country mist, scenic trains, and wildlife encounters.</p>
+                        <div class="flex justify-between items-center border-t pt-3">
+                            <span class="text-3xl font-extrabold brand-primary">$650</span>
+                            <span class="text-sm text-gray-500">/ per person</span>
+                            <a href="tours.html" class="bg-brand-secondary hover:bg-[#7a6040] text-white px-5 py-2 rounded-full font-semibold transition">View Trail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="tours.html" class="inline-block mt-12 bg-brand-primary hover:bg-brand-dark text-white
